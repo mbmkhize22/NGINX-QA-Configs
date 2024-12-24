@@ -18,10 +18,10 @@
   nginx -t
   ```
 `successful results`
-  ```
+  `
   nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
   nginx: configuration file /etc/nginx/nginx.conf test is successful
-  ```
+  `
 `unsuccessful results`
   ```
   nginx: [emerg] duplicate location "/itac-api/" in /etc/nginx/sites-enabled/default:108
