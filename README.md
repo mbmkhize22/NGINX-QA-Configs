@@ -27,3 +27,11 @@
   nginx: [emerg] duplicate location "/itac-api/" in /etc/nginx/sites-enabled/default:108
   nginx: configuration file /etc/nginx/nginx.conf test failed
   ```
+* Restart NGINX
+  ```
+  sudo service nginx restart
+  ```
+* NGINX Status
+  ```
+  sudo service nginx status
+  ```
